@@ -1,0 +1,9 @@
+# NODE MODULES
+node_modules/
+
+# YARN AND NPM
+package-lock.json
+yarn.lock
+
+# .VSCODE
+.vscode

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/index.css">
+
+    <title>Crawler</title>
+  </head>
+
+  <body>
+    <h1>Webcrawler Example</h1>
+    <main>
+      {{#each data}}
+      <a target="_blank" href={{this.link}}>
+        <header>
+          <h1 target="_blank">{{this.names}}</h1>
+          <small>{{this.brands}}</small>
+        </header>
+        <img src={{this.img}} alt={{this.names}} style="width:128px;">
+        <p>
+          <strong>Valor:</strong> <span>{{this.values}}</span>
+        </p>
+      </a>
+      {{/each}}
+   </main>
+  </body>
+</html>
