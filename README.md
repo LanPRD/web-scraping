@@ -39,9 +39,9 @@ Simple project to learn about web scraping.
 ## 📁 Clone the project
 
 ```bash
-$ git clone https://github.com/LanPRD/avaliacao-opabox
+$ git clone https://github.com/LanPRD/web-scraping.git
 
-$ cd simplePuppeteer
+$ cd web-scraping
 ```
 
 ```bash
